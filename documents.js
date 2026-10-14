@@ -14,11 +14,11 @@ const SITE = {
 
 const DOCUMENTS = [
   {
-    titre: "Exemple : Limites et continuité",
-    description: "Remplacez cette entrée par votre premier document.",
-    categorie: "Analyse",
+    titre: "Exemple : Partie entière",
+    description: "Cours, méthodes et exercices",
+    categorie: "réels",
     date: "2026-10-14",          // format AAAA-MM-JJ
-    fichier: "pdfs/exemple.pdf"
+    fichier: "pdfs/partie_entiere.pdf"
   }
   // , {
   //   titre: "Espaces vectoriels",
