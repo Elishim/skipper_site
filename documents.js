@@ -14,7 +14,7 @@ const SITE = {
 
 const DOCUMENTS = [
   {
-    titre: "Exemple : Partie entière",
+    titre: "Partie entière",
     description: "Cours, méthodes et exercices",
     categorie: "réels",
     date: "2026-10-14",          // format AAAA-MM-JJ
