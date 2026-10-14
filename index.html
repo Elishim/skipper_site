@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cours de mathématiques</title>
+  <meta name="description" content="Polycopiés, fiches et exercices de mathématiques au format PDF.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="entete">
+    <div class="conteneur">
+      <h1 id="titre-site">Mathématiques</h1>
+      <p id="sous-titre" class="sous-titre"></p>
+    </div>
+  </header>
+
+  <main class="conteneur">
+    <div class="outils">
+      <input id="recherche" type="search" placeholder="Rechercher un document…" aria-label="Rechercher un document" autocomplete="off">
+      <div id="filtres" class="filtres" role="group" aria-label="Filtrer par catégorie"></div>
+    </div>
+
+    <p id="compteur" class="compteur" aria-live="polite"></p>
+    <ul id="liste" class="liste"></ul>
+    <p id="vide" class="vide" hidden>Aucun document ne correspond à votre recherche.</p>
+  </main>
+
+  <footer class="pied">
+    <div class="conteneur">
+      <small id="pied-texte"></small>
+    </div>
+  </footer>
+
+  <script src="documents.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
